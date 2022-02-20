@@ -125,10 +125,6 @@ body {
 
 
 /* typography section styles */
-#typography {
-    margin-bottom: 15rem;
-}
-
 #typeSections {
     padding: 0 2vw;
 }
@@ -177,5 +173,115 @@ body {
     width: 60%;
     font-size: 1.5vw;
 }
-
 /* end typography section styles */
+
+/* type hierarchy styles */
+#typeHierarchy {
+    margin-bottom: 15rem;
+}
+
+#typeHierarchySection {
+    padding: 0 2vw;
+}
+
+.typeHierarchyRow {
+    height: 4vw;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+}
+
+.typeHierarchyText {
+    width: 32vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.typeHierarchyType {
+    width: 15vw;
+    text-align: right;
+    line-height: 5vw;
+}
+
+.typeHierarchyStyle {
+    width: 20vw;
+    text-align: right;
+    line-height: 5vw;
+}
+
+#heading1 .typeHierarchyText {
+    font-weight: bold;
+    font-size: 30pt;
+    line-height: 5vw;
+}
+
+#heading2 .typeHierarchyText {
+    font-weight: bold;
+    font-size: 26pt;
+    line-height: 5vw;
+}
+
+#heading3 .typeHierarchyText {
+    font-weight: bold;
+    font-size: 20pt;
+    line-height: 5vw;
+}
+
+#heading4 .typeHierarchyText {
+    font-size: 20pt;
+    line-height: 5vw;
+}
+
+#largeBoldCopy .typeHierarchyText {
+    font-weight: bold;
+    font-size: 14pt;
+    line-height: 5vw;
+}
+
+#largeBodyCopy .typeHierarchyText {
+    font-size: 14pt;
+    line-height: 5vw;
+}
+
+#boldBodyCopy .typeHierarchyText {
+    font-weight: bold;
+    font-size: 12pt;
+    line-height: 5vw;
+}
+
+#bodyCopy .typeHierarchyText {
+    font-size: 12pt;
+    line-height: 5vw;
+}
+
+#linkText .typeHierarchyText {
+    font-weight: bold;
+    font-size: 12pt;
+    color: #DBC680;
+    line-height: 5vw;
+}
+
+#buttonText .typeHierarchyText {
+    font-weight: bold;
+    font-size: 12pt;
+    color: #215885;
+    line-height: 5vw;
+}
+/* end type hierarchy styles */
+
+@media only screen and (max-width: 850px) {
+    .container {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .typeHierarchyRow {
+        height: auto;
+    }
+
+    .colorLabel {
+        font-size: 8pt;
+    }
+}
