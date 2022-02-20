@@ -6,58 +6,11 @@ body {
 }
 
 .container {
-    max-width: 75%;
+    max-width: 80%;
     margin: 0 2rem;
 }
 
-.title {
-    font-size: 11vw;
-    font-style: italic;
-}
-
-.sectionHeader {
-    font-weight: bold;
-    font-size: 4vw;
-    border-bottom: 1px solid black;
-    margin-bottom: 3vw;
-}
-
-.colors #firstRow, .colors #secondRow {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.colors #primary {
-    width: 33.33%;
-}
-
-.colors #secondary {
-    width: 50%;
-}
-
-.colors #tertiary {
-    width: 66.66%;
-}
-
-.colorBox {
-    height: 12vw;
-    width: 100%;
-}
-
-.colorGroup {
-    width: 12vw;
-}
-
-.blank {
-    background-color: white;
-}
-
-.colorGroupContainer {
-    display: flex;
-    justify-content: space-between;
-}
-
+/* color classes */
 .c215885 {
     background-color: #215885;
 }
@@ -77,3 +30,152 @@ body {
 .cDBC680 {
     background-color: #DBC680;
 }
+
+.c98D968 {
+    background-color: #98D968;
+}
+
+.cE05C5A {
+    background-color: #E05C5A;
+}
+
+.c8ACCE4 {
+    background-color: #8ACCE4;
+}
+
+.cF3CE46 {
+    background-color: #F3CE46;
+}
+
+.cDBC680 {
+    background-color: #DBC680;
+}
+/* end color classes */
+
+/* font classes */
+.averiaSerifLibre {
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.alegreyaSans {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+/* end font classes */
+
+.title {
+    font-size: 11vw;
+    font-style: italic;
+}
+
+.sectionHeader {
+    font-weight: bold;
+    font-size: 4vw;
+    border-bottom: 1px solid black;
+    margin-bottom: 4vw;
+}
+
+#colorSection {
+    padding: 0 2vw;
+}
+
+#colors #primary {
+    width: 33.33%;
+}
+
+#colors #secondary {
+    width: 50%;
+}
+
+#colors #tertiary {
+    width: 66.66%;
+}
+
+#colors #stateChange {
+    width: 83.33%;
+}
+
+.colorRow {
+    padding-bottom: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colorBox {
+    height: 12vw;
+    width: 100%;
+}
+
+.colorGroup {
+    width: 12vw;
+}
+
+.colorGroupContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* typography section styles */
+#typography {
+    margin-bottom: 15rem;
+}
+
+#typeSections {
+    padding: 0 2vw;
+}
+
+.typeSection {
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.typeStyles {
+    border-left: 1px solid black;
+    padding-left: 1vw;
+}
+
+.typeStyleContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1vw;
+}
+
+.typeIntro {
+    width: 35%;
+}
+
+.typeStyles {
+    width: 64%;
+}
+
+.typeName {
+    font-size: 3vw;
+}
+
+.typeLargeExample {
+    font-size: 18vw;
+}
+
+.typeStyleTitle {
+    font-size: 2.5vw;
+}
+
+.typeStyleLabel {
+    font-size: 1.2vw;
+}
+
+.typeStyleExample {
+    width: 60%;
+    font-size: 1.5vw;
+}
+
+/* end typography section styles */
