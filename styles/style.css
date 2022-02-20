@@ -82,7 +82,7 @@ body {
     margin-bottom: 4vw;
 }
 
-#colorSection {
+.section {
     padding: 0 2vw;
 }
 
@@ -125,10 +125,6 @@ body {
 
 
 /* typography section styles */
-#typeSections {
-    padding: 0 2vw;
-}
-
 .typeSection {
     display: flex;
     margin-bottom: 2vw;
@@ -178,10 +174,6 @@ body {
 /* type hierarchy styles */
 #typeHierarchy {
     margin-bottom: 15rem;
-}
-
-#typeHierarchySection {
-    padding: 0 2vw;
 }
 
 .typeHierarchyRow {
@@ -275,6 +267,10 @@ body {
     .container {
         max-width: 95%;
         margin: 0 auto;
+    }
+
+    .section {
+        padding: 0 4vw;
     }
 
     .typeHierarchyRow {
