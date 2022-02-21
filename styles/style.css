@@ -3,11 +3,15 @@ body {
     padding: 0;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 14px;
+    /* height: 100vh; */
 }
 
 .container {
     max-width: 80%;
     margin: 0 2rem;
+    /* overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 1000px; */
 }
 
 /* color classes */
@@ -86,10 +90,51 @@ body {
 }
 /* end font classes */
 
+/* responsiveness classes */
+.mobileOnly600px {
+    display: none;
+}
+
+.desktopOnly600px {
+    display: block;
+}
+/* end responsiveness classes */
+
+/* header styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desktopNav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.desktopNav a {
+    text-decoration: none;
+    color: black;
+}
+
+.mobileNav {
+    padding: 3vw;
+}
+
+.mobileNav img {
+    width: 7vw;
+}
+
+.navItem {
+    padding: 0 1vw;
+}
+
 .title {
     font-size: 11vw;
     font-style: italic;
 }
+/* end header styles */
 
 .sectionHeader {
     font-weight: bold;
@@ -330,5 +375,13 @@ body {
 
     .colorGroup {
         width: 14vw;
+    }
+
+    .desktopOnly600px {
+        display: none;
+    }
+
+    .mobileOnly600px {
+        display: block;
     }
 }
