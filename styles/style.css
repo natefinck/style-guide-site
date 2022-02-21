@@ -50,6 +50,22 @@ body {
 .cDBC680 {
     background-color: #DBC680;
 }
+
+.c000000 {
+    background-color: #000000;
+}
+
+.c47515A {
+    background-color: #47515A;
+}
+
+.cC9D6E1 {
+     background-color: #C9D6E1
+}
+
+.cF2F2F2 {
+    background-color: #F2F2F2;
+}
 /* end color classes */
 
 /* font classes */
@@ -83,7 +99,7 @@ body {
 }
 
 .section {
-    padding: 0 2vw;
+    padding: 0 0 0 2vw;
 }
 
 #colors #primary {
