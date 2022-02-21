@@ -100,6 +100,7 @@ body {
 
 .section {
     padding: 0 0 0 2vw;
+    margin-bottom: 2vw;
 }
 
 #colors #primary {
@@ -143,7 +144,6 @@ body {
 /* typography section styles */
 .typeSection {
     display: flex;
-    margin-bottom: 2vw;
 }
 
 .typeStyles {
@@ -188,10 +188,6 @@ body {
 /* end typography section styles */
 
 /* type hierarchy styles */
-#typeHierarchy {
-    margin-bottom: 15rem;
-}
-
 .typeHierarchyRow {
     height: 4vw;
     border-bottom: 1px solid black;
@@ -279,6 +275,26 @@ body {
 }
 /* end type hierarchy styles */
 
+/* icons styles */
+#icons {
+    margin-bottom: 15rem;
+}
+
+#iconsSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iconStyle {
+    width: 45%;
+    padding: 1.5vw;
+}
+
+.iconStyle img {
+    max-width: 100%;
+}
+/* end icons styles */
+
 @media only screen and (max-width: 850px) {
     .container {
         max-width: 95%;
@@ -295,5 +311,16 @@ body {
 
     .colorLabel {
         font-size: 8pt;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #iconsSection {
+        display: block;
+    }
+    
+    .iconStyle {
+        width: 100%;
+        padding-bottom: 5vw;
     }
 }
