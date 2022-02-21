@@ -6,6 +6,10 @@ body {
     /* height: 100vh; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     max-width: 80%;
     margin: 0 2rem;
@@ -185,10 +189,10 @@ body {
     justify-content: space-between;
 }
 
-
 /* typography section styles */
 .typeSection {
     display: flex;
+    padding-bottom: 1rem;
 }
 
 .typeStyles {
