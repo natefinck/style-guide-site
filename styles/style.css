@@ -188,6 +188,10 @@ body {
 /* end typography section styles */
 
 /* type hierarchy styles */
+#typeHierarchy {
+    padding-bottom: 3vw;
+}
+
 .typeHierarchyRow {
     height: 4vw;
     border-bottom: 1px solid black;
@@ -276,10 +280,6 @@ body {
 /* end type hierarchy styles */
 
 /* icons styles */
-#icons {
-    margin-bottom: 15rem;
-}
-
 #iconsSection {
     display: flex;
     flex-wrap: wrap;
@@ -322,5 +322,13 @@ body {
     .iconStyle {
         width: 100%;
         padding-bottom: 5vw;
+    }
+
+    .colorBox {
+        height: 14vw;
+    }
+
+    .colorGroup {
+        width: 14vw;
     }
 }
