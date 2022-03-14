@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 14px;
-    /* height: 100vh; */
 }
 
 html {
@@ -13,9 +12,6 @@ html {
 .container {
     max-width: 80%;
     margin: 0 2rem;
-    /* overflow-y: scroll;
-    scroll-behavior: smooth;
-    height: 1000px; */
 }
 
 /* color classes */
@@ -153,19 +149,19 @@ html {
 }
 
 #colors #primary {
-    width: 33.33%;
+    /* width: 33.33%; */
 }
 
 #colors #secondary {
-    width: 50%;
+    /* width: 50%; */
 }
 
 #colors #tertiary {
-    width: 66.66%;
+    /* width: 66.66%; */
 }
 
 #colors #stateChange {
-    width: 83.33%;
+    /* width: 83.33%; */
 }
 
 .colorRow {
@@ -182,17 +178,18 @@ html {
 
 .colorGroup {
     width: 12vw;
+    margin-right: 2vw;
 }
 
 .colorGroupContainer {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 /* typography section styles */
 .typeSection {
     display: flex;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .typeStyles {
@@ -341,6 +338,14 @@ html {
 
 .iconStyle img {
     max-width: 100%;
+}
+
+.iconLabel {
+    padding-bottom: 1vw;
+}
+
+.iconImageContainer {
+    padding: 1vw;
 }
 /* end icons styles */
 
