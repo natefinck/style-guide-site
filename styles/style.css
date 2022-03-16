@@ -102,15 +102,14 @@ html {
 
 /* header styles */
 .header {
-    display: flex;
-    justify-content: space-between;
+
 }
 
 .desktopNav ul {
     display: flex;
     list-style: none;
     padding: 0;
-    justify-content: space-between;
+    justify-content: end;
 }
 
 .desktopNav a {
