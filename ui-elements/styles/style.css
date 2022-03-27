@@ -1,0 +1,106 @@
+.heading4 {
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 16pt;
+    margin-bottom: 0.8rem;
+}
+
+#regularButtons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 550px;
+}
+
+.uiButton {
+    background-color: #429CC4;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttonSection {
+    /* width: 33%; */
+}
+
+.largeButton {
+    padding: 1rem 3rem;
+    font-size: 22pt;
+    margin: .5rem 0;
+}
+
+.mediumButton {
+    padding: 0.8rem 2.5rem;
+    font-size: 18pt;
+    margin: .5rem 0;
+}
+
+.smallButton {
+    padding: .6rem 2rem;
+    font-size: 14pt;
+    margin: .5rem 0;
+}
+
+.hovered {
+    background-color: #8ACCE4;
+}
+
+.clicked {
+    background-color: #215885;
+}
+
+.functioningButton:hover {
+    background-color: #8ACCE4;
+}
+
+.functioningButton:focus {
+    background-color: #215885;
+}
+
+
+.miscButtonsContainer {
+    display: flex;
+}
+
+.miscButtonsContainer div {
+    margin-right: .5rem;
+}
+
+#miscButtonsTitle {
+    margin-bottom: .5rem;
+}
+
+.checkbox input {
+    margin: 0;
+    height: 2rem;
+    width: 2rem;
+}
+
+.miscButton {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    display: flex;
+}
+
+.miscIcon {
+    width: 1.8rem;
+    height: 1.8rem;
+    padding: .6rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#miscButtonsText {
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+    padding: .5rem;
+}
+
+#miscButtonsText img {
+    width: 1.8rem;
+}
