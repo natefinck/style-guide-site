@@ -109,7 +109,8 @@ html {
 .desktopNav ul {
     display: flex;
     list-style: none;
-    padding: 0;
+    padding: 1rem 0;
+    margin: 0;
     justify-content: end;
 }
 
