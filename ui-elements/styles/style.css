@@ -119,6 +119,34 @@
     width: 1.8rem;
 }
 
+.dropdown {
+    width: 50%;
+    margin: .5rem 0;
+    height: 3rem;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 0.5rem;
+
+    background-image: url("../../images/icons/ui-elements-icons/expand.svg");
+    background-position: 95%;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+
+.ghostDropdown {
+    color: #707070;
+}
+
+.dropdownText {
+    padding-top: .3rem;
+}
+
+#ghost1 {
+
+}
+
 @media only screen and (max-width: 600px) {
     .largeButton {
         padding: .6rem 1.7rem;
