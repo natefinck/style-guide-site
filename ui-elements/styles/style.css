@@ -84,7 +84,7 @@
 .miscButton {
     width: 3rem;
     height: 3rem;
-    border: 1px solid #707070;
+    border: 2px solid #707070;
     border-radius: 3px;
     display: flex;
 }
@@ -123,7 +123,7 @@
     width: 50%;
     margin: .5rem 0;
     height: 3rem;
-    border: 1px solid #707070;
+    border: 2px solid #707070;
     border-radius: 3px;
     font-size: 2rem;
     font-weight: bold;
@@ -143,9 +143,66 @@
     padding-top: .3rem;
 }
 
-#ghost1 {
+.input {
+    border: 2px solid #707070;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    margin: .5rem 0;
+    padding: 0 .5rem;
+}
+
+.smallInput {
+    width: 50%;
+}
+
+.passwordInput {
+    padding-top: 1rem;
+    line-height: 2.2rem;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.textInput {
+    padding: .5rem;
+    border: 2px solid #429CC4;
+}
+
+.inputText {
+    padding-top: .3rem;
+}
+
+#defaultTextField {
+    height: 25vw;
+    width: 80%;
+    padding: .5rem;
+}
+
+#passwordError {
+    border-color: #E05C5A;
+    color: #E05C5A;
+}
+
+#ghostSearch {
+    color: #47515A;
+
+    background-image: url(../../images/icons/ui-elements-icons/search.svg);
+    background-position: 95%;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+
+#searchField {
+    
+    background-image: url(../../images/icons/ui-elements-icons/search.svg);
+    background-position: 95%;
+    background-repeat: no-repeat;
+    background-size: 2rem;
+}
+
+#numberField {
 
 }
+
 
 @media only screen and (max-width: 600px) {
     .largeButton {
