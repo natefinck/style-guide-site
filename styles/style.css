@@ -127,8 +127,20 @@ html {
     width: 7vw;
 }
 
+.navItemContainer {
+
+}
+
 .navItem {
     padding: 0 1vw;
+    transition: transform .4s cubic-bezier(0,0,.7,1) 0s;
+    transform-origin: 0 100%;
+    will-change: transform;
+}
+
+.navItem:hover {
+    /* transform: rotate(180deg); */
+    transform: skewX(-12deg)!important;
 }
 
 .title {
