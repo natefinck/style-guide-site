@@ -203,6 +203,33 @@
 
 }
 
+.avatarImage {
+    background-color: #f2f2f2;
+    border: 1px solid #47515A;
+    width: 12vw;
+    height: 12vw;
+    margin: .5rem;
+
+    display: flex; 
+    justify-content: center;
+}
+
+.avatarImage img {
+    width: 50%;
+}
+
+#avaratsRow1 {
+    display: flex;
+}
+
+.circularAvatar {
+    border-radius: 50%;
+}
+
+.squareAvatar {
+    border-radius: 6px;
+}
+
 
 @media only screen and (max-width: 600px) {
     .largeButton {
