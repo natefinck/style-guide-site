@@ -206,8 +206,8 @@
 .avatarImage {
     background-color: #f2f2f2;
     border: 1px solid #47515A;
-    width: 12vw;
-    height: 12vw;
+    width: 15vw;
+    height: 15vw;
     margin: .5rem;
 
     display: flex; 
@@ -218,8 +218,9 @@
     width: 50%;
 }
 
-#avaratsRow1 {
+.avatarRow {
     display: flex;
+    margin-bottom: 5vw;
 }
 
 .circularAvatar {
@@ -228,6 +229,34 @@
 
 .squareAvatar {
     border-radius: 6px;
+}
+
+#circular {
+    background-image: url("../../images/portraits/1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#circularEdit {
+    background-image: url("../../images/portraits/2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#square {
+    background-image: url("../../images/portraits/3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#squareEdit {
+    background-image: url("../../images/portraits/4.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
