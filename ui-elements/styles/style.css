@@ -146,7 +146,7 @@
 .input {
     border: 2px solid #707070;
     border-radius: 6px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: .5rem 0;
     padding: 0 .5rem;
 }
@@ -156,25 +156,24 @@
 }
 
 .passwordInput {
-    padding-top: 1rem;
     line-height: 2.2rem;
-    font-size: 3rem;
-    font-family: sans-serif;
 }
 
 .textInput {
     padding: .5rem;
     border: 2px solid #429CC4;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 .inputText {
     padding-top: .3rem;
 }
 
-#defaultTextField {
+#defaultTextArea {
     height: 25vw;
     width: 80%;
     padding: .5rem;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 #passwordError {
@@ -182,21 +181,15 @@
     color: #E05C5A;
 }
 
-#ghostSearch {
-    color: #47515A;
-
+.searchInput {
     background-image: url(../../images/icons/ui-elements-icons/search.svg);
     background-position: 95%;
     background-repeat: no-repeat;
-    background-size: 2rem;
+    background-size: 1.6rem;
 }
 
-#searchField {
-    
-    background-image: url(../../images/icons/ui-elements-icons/search.svg);
-    background-position: 95%;
-    background-repeat: no-repeat;
-    background-size: 2rem;
+#ghostSearch {
+    color: #47515A;
 }
 
 #numberField {
