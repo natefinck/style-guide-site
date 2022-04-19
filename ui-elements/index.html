@@ -10,12 +10,14 @@
         <link rel="stylesheet" href="styles/style.css" />
         <link rel="stylesheet" href="../styles/style.css" />
         <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
         <title>UI Elements</title>
+
     </head>
     <body>
         <div class="container">
-            <div>
-                <div class="desktopNav desktopOnly600px">
+            <div class="navContainer">
+                <div class="nav navHidden">
                     <ul>
                         <a href="#buttons" class="navItemContainer"><li class="navItem">Buttons</li></a>
                         <a href="#dropdowns" class="navItemContainer"><li class="navItem">Dropdowns</li></a>
@@ -24,13 +26,13 @@
                         <a href="../index.html" class="navItemContainer"><li class="navItem">Style Guide</li></a>
                     </ul>
                 </div>
+                <div class="menuButton">
+                    ...
+                </div>
             </div>
             <div class="header">
                 <div class="title">
                     UI Elements
-                </div>
-                <div class="mobileNav mobileOnly600px">
-                    <img src="../images/hamburger-menu.png"/>
                 </div>
             </div>
             <div id="buttons">
@@ -328,4 +330,6 @@
             </div>
         </div>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../script.js"></script>
 </html>

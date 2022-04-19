@@ -106,29 +106,37 @@ html {
     justify-content: space-between;
 }
 
-.desktopNav ul {
+.navContainer {
+    display: flex;
+    justify-content: right;
+}
+
+.nav {
+    transition: all .4s ease-in-out;
+}
+
+.nav ul {
     display: flex;
     list-style: none;
-    padding: 1rem 0;
+    padding: 2rem;
     margin: 0;
     justify-content: end;
 }
 
-.desktopNav a {
+.nav a {
     text-decoration: none;
     color: black;
 }
 
-.mobileNav {
-    padding: 3vw;
-}
+.menuButton {
+    cursor: pointer;
+    font-size: 3rem;
+    transition: all .4s ease-in-out;
 
-.mobileNav img {
-    width: 7vw;
-}
-
-.navItemContainer {
-
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 .navItem {
@@ -140,6 +148,10 @@ html {
 
 .navItem:hover {
     transform: skewX(-12deg)!important;
+}
+
+.navHidden {
+    transform: translate(0, -100%);
 }
 
 .title {
