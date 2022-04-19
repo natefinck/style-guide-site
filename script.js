@@ -1,12 +1,11 @@
 jQuery(document).ready(function () {
     jQuery('.menuButton').click(function(){
-        console.log("clicked!");
         if ($(".nav").hasClass('navHidden')) {
             $( ".nav" ).removeClass( 'navHidden');
-            $(".menuButton").css("transform", "rotate(-630deg)");
+            $(".menuButton").css("transform", "rotate(-540deg)");
         } else {
           $( ".nav" ).addClass( 'navHidden');
-          $(".menuButton").css("transform", "rotate(0deg)");
+          $(".menuButton").css("transform", "rotate(-90deg)");
         }
     });
 });
