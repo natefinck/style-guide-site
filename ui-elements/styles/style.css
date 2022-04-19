@@ -130,9 +130,17 @@
     padding: 0 0.5rem;
 
     background-image: url("../../images/icons/ui-elements-icons/expand.svg");
-    background-position: 95%;
+    background-position: 97%;
     background-repeat: no-repeat;
     background-size: 2rem;
+
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
 }
 
 .ghostDropdown {

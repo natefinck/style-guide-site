@@ -171,26 +171,35 @@
                 </div>
                 <div id="dropdownsSection" class="section">
                     Ghost Dropdown - 1 field
-                    <div id="ghost1" class="dropdown ghostDropdown">
-                        <div class="dropdownText">
-                            State
-                        </div>
+                    <div>
+                        <select name="state" class="dropdown dropdownText ghostDropdown">
+                            <option class="selectOption" value="" disabled selected hidden>State</option>
+                            <option class="selectOption" value="nebraska">Nebraska</option>
+                            <option class="selectOption" value="iowa">Iowa</option>
+                            <option class="selectOption" value="kansas">Kansas</option>
+                        </select>
                     </div>
                 </div>
                 <div id="dropdownsSection" class="section">
                     Ghost Dropdown - 2 fields
-                    <div id="ghost2" class="dropdown ghostDropdown">
-                        <div class="dropdownText">
-                            City, State
-                        </div>
+                    <div>
+                        <select name="state" class="dropdown dropdownText ghostDropdown">
+                            <option value="" disabled selected hidden>City, State</option>
+                            <option class="selectOption" value="nebraska">Falls City, Nebraska</option>
+                            <option class="selectOption" value="iowa">Des Moines, Iowa</option>
+                            <option class="selectOption" value="kansas">Topeka, Kansas</option>
+                        </select>
                     </div>
                 </div>
                 <div id="dropdownsSection" class="section">
                     Completed Dropdown - 2 fields
-                    <div id="ghost1" class="dropdown">
-                        <div class="dropdownText">
-                            Falls City, Nebraska
-                        </div>
+                    <div>
+                        <select name="state" class="dropdown dropdownText ghostDropdown">
+                            <option value="" disabled hidden>City, State</option>
+                            <option class="selectOption" value="nebraska" selected>Falls City, Nebraska</option>
+                            <option class="selectOption" value="iowa">Des Moines, Iowa</option>
+                            <option class="selectOption" value="kansas">Topeka, Kansas</option>
+                        </select>
                     </div>
                 </div>
             </div>
